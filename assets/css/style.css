@@ -1,0 +1,121 @@
+
+
+
+.jumbotron{
+    background-image: url("../images/food.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.wrapper{
+max-width:90%;
+margin:0 auto;
+
+}
+
+#jumbo{
+    text-align:center;
+    background:papayawhip;
+    width:45%;
+    padding:10px;
+
+}
+
+.display-4{
+    font-family: 'Erica One', cursive;
+    color:darkred;
+}
+
+.lead, #subtitle, .feed{
+    font-family: 'Passion One', cursive;
+    color:darkred;
+    font-size:2rem;
+}
+
+#subtitle, .feed{
+    color:darkred;
+    font-size:1.5rem;
+}
+
+
+
+#foodbtns{
+    width:100%;
+    margin-bottom:20px;
+}
+.foodlist{
+    margin-right:5px;
+    margin-bottom:10px;
+    background-color: darkred;
+    color:white;
+    /* font-family: 'Passion One', cursive; */
+    border:none;
+    padding:10px;
+    font-size:1.2rem;
+    
+
+
+}
+#feedMe{
+    border:1px solid darkred;
+}
+
+#submitentry, #reset{
+background-color: darkred;
+color:white;
+font-family: 'Passion One', cursive;
+border:none;
+padding:10px;
+font-size:1.2rem;
+
+}
+
+.gif{
+    width:300px;
+    height:300px;
+}
+
+.row{
+    margin-top:20px;
+}
+
+form{
+    margin-left:-15px;
+}
+
+
+#foodgifs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    position:relative;
+
+}
+
+.contents{
+    position: relative;
+}
+
+.far, .fas{
+    position: absolute;
+    bottom:33px;
+    left:260px;
+    font-size:1.7rem;
+    color:rgb(233, 12, 12);
+}
+
+.far, .fas:hover{
+    font-size:2rem;
+}
+
+
+
+.contents, .foodlist:hover{
+    cursor: pointer;
+    
+
+}
+

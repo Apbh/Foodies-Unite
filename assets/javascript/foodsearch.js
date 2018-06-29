@@ -1,7 +1,7 @@
 //Set Varibles
 //================================================================================
 
-var topic = ["Sushi", "Pasta", "Indian food", "Sandwich", "BBQ", "Ramen", "Bacon", "Shrimp", "Salmon", "Pho", "Cookies", "Pizza", "Chocolate", "Dukbokki", "Cake", "Risotto", "Tea", "Coffee", "Fries", "Yoghurt", "Salad", "Ice-cream", "Salads", "Pudding", "Strawberries"];
+var topic = ["Sushi", "Pasta", "Indian food", "Sandwich", "BBQ", "Ramen", "Bacon", "Shrimp", "Salmon", "Pho", "Cookies", "Pizza", "Chocolate", "Dukbokki", "Cake", "Risotto", "Tea", "Coffee", "Fries", "Yoghurt", "Ice-cream", "Pudding", "Strawberries"];
 
 
 

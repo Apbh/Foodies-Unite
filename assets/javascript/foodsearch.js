@@ -20,7 +20,7 @@ function displayfood() {
     })
     .then(function (response) {
         var results = response.data;
-        console.log(response);
+        console.log("Response is:", results);
         
         
         
@@ -115,6 +115,7 @@ function createbtns() {
         $("#foodbtns").append(button);
 
     }
+
 }
 
 
@@ -125,8 +126,14 @@ function createbtns() {
 $("#submitentry").on("click", function (event) {
     event.preventDefault();
     var foodItem = $("#feedMe").val().trim();
+    console.log("FoodItem:", foodItem);
+    if ($("#feedMe").val() === ""){
+        alert("Please enter a food name in the input field.")
+    }
+    if ($("#feedMe").val() !== ""){
     topic.push(foodItem);
     createbtns();
+    }
 });
 
 
